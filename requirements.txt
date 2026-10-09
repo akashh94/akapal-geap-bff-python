@@ -1,0 +1,10 @@
+# FastAPI + the Agent Engine SDK. `agentplatform` (the remote-engine client)
+# ships inside google-cloud-aiplatform; google-adk comes along because the
+# agent_engines templates import it.
+google-adk[gcp]==2.6.2
+google-cloud-aiplatform[agent_engines,adk]==1.163.0
+
+fastapi
+uvicorn[standard]
+pyjwt
+python-dotenv
